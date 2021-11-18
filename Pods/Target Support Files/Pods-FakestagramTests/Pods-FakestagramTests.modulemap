@@ -1,0 +1,6 @@
+framework module Pods_FakestagramTests {
+  umbrella header "Pods-FakestagramTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

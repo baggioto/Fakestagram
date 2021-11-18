@@ -20,7 +20,7 @@ struct Post: View {
             PostDetails()
             
         }.padding(.vertical)
-            .listRowSeparator(.hidden)
+//            .listRowSeparator(.hidden)
         
     }
 }
