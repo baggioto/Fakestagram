@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  Fakestagram
 //
 //  Created by Felipe Baggioto on 11/11/21.
@@ -7,19 +7,19 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
         VStack {
             Header()
             
             ContentList()
-        }
+        }.navigationBarHidden(true)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().preferredColorScheme(.dark)
+        HomeView().preferredColorScheme(.dark)
     }
 }
 

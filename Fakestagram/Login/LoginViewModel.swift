@@ -1,5 +1,5 @@
 //
-//  FormViewModel.swift
+//  LoginViewModel.swift
 //  Fakestagram
 //
 //  Created by Felipe Baggioto on 18/11/21.
@@ -9,7 +9,7 @@ import Foundation
 import Combine
 import Navajo_Swift
 
-class FormViewModel: ObservableObject {
+class LoginViewModel: ObservableObject {
     // input
     @Published var username = ""
     @Published var password = ""

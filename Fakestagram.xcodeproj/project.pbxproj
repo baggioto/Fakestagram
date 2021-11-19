@@ -11,7 +11,7 @@
 		CF6AF56F914E9BBFD39DA1C5 /* Pods_Fakestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EAADA62D873EB7C01240F2 /* Pods_Fakestagram.framework */; };
 		D1B5E8E823661A35B255E98C /* Pods_FakestagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160E27F19B3B6FB08BF66AAC /* Pods_FakestagramTests.framework */; };
 		D957D9FA273DF79D006A5E74 /* FakestagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957D9F9273DF79D006A5E74 /* FakestagramApp.swift */; };
-		D957D9FC273DF79D006A5E74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957D9FB273DF79D006A5E74 /* ContentView.swift */; };
+		D957D9FC273DF79D006A5E74 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957D9FB273DF79D006A5E74 /* HomeView.swift */; };
 		D957D9FE273DF79F006A5E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D957D9FD273DF79F006A5E74 /* Assets.xcassets */; };
 		D957DA01273DF79F006A5E74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D957DA00273DF79F006A5E74 /* Preview Assets.xcassets */; };
 		D957DA0B273DF79F006A5E74 /* FakestagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957DA0A273DF79F006A5E74 /* FakestagramTests.swift */; };
@@ -19,8 +19,8 @@
 		D957DA17273DF79F006A5E74 /* FakestagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957DA16273DF79F006A5E74 /* FakestagramUITestsLaunchTests.swift */; };
 		D957DA24273E0F58006A5E74 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957DA23273E0F58006A5E74 /* Story.swift */; };
 		D957DA26273E0FC6006A5E74 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957DA25273E0FC6006A5E74 /* Post.swift */; };
-		D9C3C3A82746C6F300DE0DA4 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3C3A72746C6F300DE0DA4 /* FormView.swift */; };
-		D9C3C3AA2746C70B00DE0DA4 /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3C3A92746C70B00DE0DA4 /* FormViewModel.swift */; };
+		D9C3C3A82746C6F300DE0DA4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3C3A72746C6F300DE0DA4 /* LoginView.swift */; };
+		D9C3C3AA2746C70B00DE0DA4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3C3A92746C70B00DE0DA4 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		BA8E050FFD4C6C872E31AFAB /* Pods-Fakestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fakestagram.release.xcconfig"; path = "Target Support Files/Pods-Fakestagram/Pods-Fakestagram.release.xcconfig"; sourceTree = "<group>"; };
 		D957D9F6273DF79D006A5E74 /* Fakestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fakestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D957D9F9273DF79D006A5E74 /* FakestagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakestagramApp.swift; sourceTree = "<group>"; };
-		D957D9FB273DF79D006A5E74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D957D9FB273DF79D006A5E74 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D957D9FD273DF79F006A5E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D957DA00273DF79F006A5E74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D957DA06273DF79F006A5E74 /* FakestagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakestagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,8 +62,8 @@
 		D957DA16273DF79F006A5E74 /* FakestagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakestagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D957DA23273E0F58006A5E74 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		D957DA25273E0FC6006A5E74 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		D9C3C3A72746C6F300DE0DA4 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
-		D9C3C3A92746C70B00DE0DA4 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		D9C3C3A72746C6F300DE0DA4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D9C3C3A92746C70B00DE0DA4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +142,9 @@
 		D957D9F8273DF79D006A5E74 /* Fakestagram */ = {
 			isa = PBXGroup;
 			children = (
-				D9C3C3A62746C6D300DE0DA4 /* Forms */,
+				D9C3C3A62746C6D300DE0DA4 /* Login */,
 				D957D9F9273DF79D006A5E74 /* FakestagramApp.swift */,
-				D957D9FB273DF79D006A5E74 /* ContentView.swift */,
+				D957D9FB273DF79D006A5E74 /* HomeView.swift */,
 				D957D9FD273DF79F006A5E74 /* Assets.xcassets */,
 				D957D9FF273DF79F006A5E74 /* Preview Content */,
 				D957DA23273E0F58006A5E74 /* Story.swift */,
@@ -178,13 +178,13 @@
 			path = FakestagramUITests;
 			sourceTree = "<group>";
 		};
-		D9C3C3A62746C6D300DE0DA4 /* Forms */ = {
+		D9C3C3A62746C6D300DE0DA4 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				D9C3C3A72746C6F300DE0DA4 /* FormView.swift */,
-				D9C3C3A92746C70B00DE0DA4 /* FormViewModel.swift */,
+				D9C3C3A72746C6F300DE0DA4 /* LoginView.swift */,
+				D9C3C3A92746C70B00DE0DA4 /* LoginViewModel.swift */,
 			);
-			path = Forms;
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,10 +425,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C3C3AA2746C70B00DE0DA4 /* FormViewModel.swift in Sources */,
-				D957D9FC273DF79D006A5E74 /* ContentView.swift in Sources */,
+				D9C3C3AA2746C70B00DE0DA4 /* LoginViewModel.swift in Sources */,
+				D957D9FC273DF79D006A5E74 /* HomeView.swift in Sources */,
 				D957D9FA273DF79D006A5E74 /* FakestagramApp.swift in Sources */,
-				D9C3C3A82746C6F300DE0DA4 /* FormView.swift in Sources */,
+				D9C3C3A82746C6F300DE0DA4 /* LoginView.swift in Sources */,
 				D957DA24273E0F58006A5E74 /* Story.swift in Sources */,
 				D957DA26273E0FC6006A5E74 /* Post.swift in Sources */,
 			);
